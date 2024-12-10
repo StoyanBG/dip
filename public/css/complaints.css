@@ -1,0 +1,96 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.complaints-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.complaint-item {
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin: 2rem auto;
+    width: 90%;
+}
+
+.response-form {
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.response-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.response-form textarea {
+    width: 99%;
+    resize: vertical;
+    margin-bottom: 1rem;
+}
+
+.response-form input,
+.response-form button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.response-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.response-form button:hover {
+    background-color: #555;
+}
+
+/* Response Message */
+#responseMessage {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #333;
+}
+
+#responseForm {
+    margin-top: 2rem;
+}
+
+.real-time-info {
+    background-color: white; /* Matching gradient */
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.real-time-info h2 {
+    color: #007bff;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.real-time-info p {
+    font-size: 1.2rem;
+}

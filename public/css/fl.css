@@ -1,0 +1,15 @@
+.center {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+.button-div {
+    margin: 1%;
+    
+}
+@media screen and (max-width: 768px) {
+
+    
+    
+}
+
